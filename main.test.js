@@ -1,7 +1,7 @@
 const supertest = require('supertest');
 const request = supertest('http://localhost:3030');
-const user_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYW5rIjoib2ZmaWNlciIsImlhdCI6MTY1NTY4NjQ4NywiZXhwIjoxNjU2MjkxMjg3fQ.acWuvpFHDn9xW8Bk-WM809wtEW914PIc8J37z2snXc8';
-const visitor_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxMjMiLCJpYXQiOjE2NTU2ODY1MTksImV4cCI6MTY1NjI5MTMxOX0.JXRwr-pkcr-so5WzP2Vf4ceZt3gN-eSHyl4EFA-DpCA';
+const user_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyYW5rIjoib2ZmaWNlciIsImlhdCI6MTY1NjU3MTU2MCwiZXhwIjoxNjU3MTc2MzYwfQ.DTlSed2KTHEPnKL7Q41LvRw8GvWCwW8zLkr3ylPtm_M';
+const visitor_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxMjMiLCJpYXQiOjE2NTY1NzE1MzYsImV4cCI6MTY1NzE3NjMzNn0.yt3ivhSIJL9YzPffESOqCiOqEHMPDXGr3Wph-0-77eM';
 
 describe('Express Route Test', function () {
 
