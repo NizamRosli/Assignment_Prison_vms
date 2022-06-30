@@ -43,7 +43,7 @@ class Visitorlog {
 			return { status: "VisitorLog deleted!" }
 		}
 
-    static async find(Logno) {
+    static async find( Logno ) {
 			return visitorlog.findOne({Logno: Logno})
 		}
 
