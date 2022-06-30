@@ -2,7 +2,7 @@ const bcrypt = require("bcrypt")
 let users;
 // /
 class User {
-	 static async injectDB(conn) {
+	static async injectDB(conn) {
 		users = await conn.db("Prison_VMS").collection("users")
 	}
 
